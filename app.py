@@ -42,3 +42,24 @@ senior_research_analyst = Agent(
 
 )
 
+
+
+# Agent 2 Content Writer 
+
+content_writer = Agent(
+    role="Content Writer",
+    goal="Transform  research findings into engaging blog posts while maintaining accuracy",
+    backstory = "You're a skilled content writer specialized in creating "
+                "engaging, accessible content from technical research. "
+                "You work closely with the Senior Research Analyst and excel at maintaining the perfect "
+                "balance between informative and entertaining writing, "
+                "while ensuring all facts and citations from the research "
+                "are properly incorporated. You have a talent for making "
+                "complex topics approachable without oversimplifying them.",
+    allow_delegation = False,
+    verbose = True,
+    llm = llm
+
+)
+
+
