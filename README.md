@@ -1,6 +1,10 @@
 # Research AI Agent 
 
 
+
+https://github.com/user-attachments/assets/e423c360-0103-4d5c-beb8-5aaa9d193bf0
+
+
 This repository contains a basic AI Research Agent (just  a helloworld for AI Agents ), designed using **Streamlit**, **CrewAI**, **Serper API**, and **OpenAI API**. The system includes two agents:
 1. **Research Agent**: Conducts real-time web searches and gathers insights.
 2. **Content Writer Agent**: Processes the data and generates high-quality content with proper references.
@@ -93,16 +97,17 @@ graph TD
 
 ## Project Structure
 
+
 ```
-.
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Dependencies
-├── .env                   # Environment variables (API keys)
-├── README.md              # Project documentation
-├── utils/
-│   ├── research_agent.py  # Research agent logic
-│   ├── content_writer.py  # Content writer logic
-│   └── helpers.py         # Helper functions
+
+├── .git/                  # Git repository data
+├── .env                   # Environment variables for API keys
+├── .gitignore             # Ignored files and directories
+├── app.py                 # Agenet application test
+├── README.md              # Project documentation (this file)
+├── requirements.txt       # Python dependencies
+├── streamlit_app.py       # Streamlit-specific logic for the app
+
 ```
 
 ---
