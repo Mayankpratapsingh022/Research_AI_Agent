@@ -115,3 +115,16 @@ A polished blog post in markdown format that:
 """,
 agent = content_writer 
 )
+
+
+crew = Crew(
+    agents= [senior_research_analyst,content_writer],
+    tasks= [Research_task,writing_task],
+    verbose=True
+)
+
+
+result = crew.kickoff(inputs={topic})
+
+
+print(result)
