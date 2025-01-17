@@ -1,4 +1,4 @@
-from crewai import Agents, Task, Crew , LLM
+from crewai import Agent, Task, Crew , LLM
 from crewai_tools import SerperDevTool
 
 
@@ -124,7 +124,7 @@ crew = Crew(
 )
 
 
-result = crew.kickoff(inputs={topic})
+result = crew.kickoff(inputs={"topic":topic})
 
 
 print(result)
